@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/*utiliy style*/
+#no, #who, #ceo, #xyz {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    background: #fff;
+    margin-left: 15rem;
+    font-style: normal;
+    margin: auto;
+    max-width: 1100px;
+    color: rgb(128, 125, 125);
+    
+}
+#icon{
+    display: grid;
+    grid-template-columns: 1rem 1rem 1rem 1rem;
+    grid-gap: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 3rem;
+}
+main{
+    background: white;
+}
+a{
+    text-decoration: none;
+    padding: 0.2rem 0.9rem;
+   
+    display: inline-block;
+    color: black;
+    background: white;
+}
+h1, h2, h3, h4, h5,h6{
+    font-weight: bold;
+    line-height: 1.3;
+    color: black;
+}
+header{
+    
+    position: absolute;
+    top: 0.1rem;
+    left: 0.005rem;
+}
+li{
+    list-style: none;
+}
+
+
+/*nav bar*/
+#search{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+#search p{
+    margin-right: 10rem;
+    margin-left: 15rem;
+}
+nav{
+    padding-left: 7rem;
+}
+#search input{
+    border: solid rgb(143, 140, 140);
+    padding: 0.3rem 6rem 0.3rem 4rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    width: 30rem;
+}
+#search button{
+    color: #fff;
+    background-color: orangered;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+}
+nav{
+    margin-left: 0;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 7rem);
+    border: none;
+    color: black;
+    background-color:#f4eded;
+}
+nav li a{
+    background-color: #f4eded;
+}
+#total{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+#small{
+    font-size: xx-small;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 1rem;
+}
+/*about us*/
+#body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#xyz, #ceo, .longer, #image, #image, #who, #no{
+    margin-bottom: 1rem;
+}
+#who{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    
+}
+#no{
+    margin-top: 2rem;
+}
+#who, #no, #ceo, #xyz{
+    padding: 0 10rem;
+}
+#who img{
+    margin-top: 2rem;
+}
+#image, .longer{
+    background-color: rgb(206, 205, 205);
+    color: rgb(128, 125, 125);
+    
+}
+.longer{
+    padding-top: 3rem;
+}
+#choice{
+    position: absolute;
+    right: 23rem;
+    top: 61rem;
+}
+#ceo{
+    margin-top: 11rem;
+}
+#beyond{
+    margin-left: 6rem;
+}
+#xyz{
+    padding-bottom: 5rem;
+}
+#ceo h1 {
+    font-size: x-small;
+}
+/*footer*/
+footer{
+    margin-top: 3rem;
+    padding-left: 7rem;
+   margin-left: 0;
+   border: 0;
+   margin-top: 1rem;
+   color:black ;
+   background-color:#f4eded;
+   font-size: xx-small;
+   background-size: cover;
+}
+#footer{
+   padding-top: 5%;
+   display: grid;
+   grid-template-columns: repeat(6, 13rem);
+   grid-gap: 10px;
+}
+#copyright{
+   margin-top: 4rem;
+}
+footer h1{
+   font-size: small;
+}
+footer input{
+   padding: 0.0001rem;
+   border: solid black;
+}
+#email{
+   border: solid gray;
+   width: 7rem;
+   margin-top: 1rem;
+}
+#subscribe{
+   background: black;
+   color: #fff;
+}
+#copyright{
+   padding-bottom: 1rem;
+}
+#blank a{
+   border: none;
+   margin-left: 1rem;
+   background-color: #f4eded;
+}
+#blank{
+   display: flex;
+   width: 1px;
+   
+}
+

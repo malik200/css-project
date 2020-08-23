@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/*utiliy style*/
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 1.5;
+    background: #fff;
+    margin-left: 7rem;
+    font-style: normal;
+    margin: auto;
+    max-width: 1100px;
+}
+#icon{
+    display: grid;
+    grid-template-columns: 1rem 1rem 1rem 1rem;
+    grid-gap: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 3rem;
+}
+main{
+    background: white;
+}
+a{
+    text-decoration: none;
+    
+   
+    display: inline-block;
+    color: black;
+    background: white;
+}
+h1, h2, h3, h4, h5,h6{
+    font-weight: bold;
+    line-height: 1.3;
+    font-size: 1rem;
+}
+header{
+    
+    position: absolute;
+    top: 0.1rem;
+    left: 0.005rem;
+}
+li{
+    list-style: none;
+}
+/*nav bar*/
+#search{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+#search p{
+    margin-right: 10rem;
+    margin-left: 15rem;
+}
+nav{
+    padding-left: 7rem;
+}
+#search input{
+    border: solid rgb(143, 140, 140);
+    padding: 0.3rem 6rem 0.3rem 4rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    width: 30rem;
+}
+#search button{
+    color: #fff;
+    background-color: orangered;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+}
+nav{
+    margin-left: 0;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 7rem);
+    border: none;
+    color: black;
+    background-color:#f4eded;
+}
+nav li a{
+    background-color: #f4eded;
+}
+#total{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+#small{
+    font-size: xx-small;
+    margin-bottom: 1rem;
+}
+/*showcase*/
+#main{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+}
+.shop{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 0.5rem;
+}
+#fashion{
+    align-self: center;
+}
+#shop{
+    display: flex;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+}
+#shop div{
+    margin-left: 1rem;
+}
+#shop a{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+}
+#view{
+    margin-left: 30rem;
+    border: 1px solid rgb(241, 239, 239);
+    font-size: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 3rem;
+}
+#showcase{
+    display: flex;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+#showcase div{
+    margin-left: 1rem;
+}
+#showcase span{
+    font-size: 0.5rem;
+}
+#showcase a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*footer*/
+footer{
+    margin-top: 3rem;
+    padding-left: 7rem;
+   margin-left: 0;
+   border: 0;
+   margin-top: 1rem;
+   color:black ;
+   background-color:#f4eded;
+   font-size: xx-small;
+   background-size: cover;
+}
+#footer{
+   padding-top: 5%;
+   display: grid;
+   grid-template-columns: repeat(6, 13rem);
+   grid-gap: 10px;
+}
+#copyright{
+   margin-top: 4rem;
+}
+footer h1{
+   font-size: small;
+}
+footer input{
+   padding: 0.0001rem;
+   border: solid black;
+}
+#email{
+   border: solid gray;
+   width: 7rem;
+   margin-top: 1rem;
+}
+#subscribe{
+   background: black;
+   color: #fff;
+}
+#copyright{
+   padding-bottom: 1rem;
+}
+#blank a{
+   border: none;
+   margin-left: 1rem;
+   background-color: #f4eded;
+}
+#blank{
+   display: flex;
+   width: 1px;
+   
+}
+

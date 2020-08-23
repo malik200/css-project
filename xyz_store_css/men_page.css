@@ -1,0 +1,247 @@
+
+    *{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    /*utiliy style*/
+    #body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        line-height: 1.5;
+        background: #fff;
+        margin-left: 7rem;
+        font-style: normal;
+        margin: auto;
+        max-width: 1100px;
+    }
+    #icon{
+        display: grid;
+        grid-template-columns: 1rem 1rem 1rem 1rem;
+        grid-gap: 2rem;
+        position: absolute;
+        top: 0.5rem;
+        right: 3rem;
+    }
+    main{
+        background: white;
+    }
+    a{
+        text-decoration: none;
+        padding: 0.2rem 0.9rem;
+       
+        display: inline-block;
+        color: black;
+        background: white;
+    }
+    h1, h2, h3, h4, h5,h6{
+        font-weight: bold;
+        line-height: 1.3;
+    }
+    header{
+        
+        position: absolute;
+        top: 0.1rem;
+        left: 0.005rem;
+    }
+    li{
+        list-style: none;
+    }
+    
+    
+    /*nav bar*/
+    #search{
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+    }
+    #search p{
+        margin-right: 10rem;
+        margin-left: 15rem;
+    }
+    nav{
+        padding-left: 7rem;
+    }
+    #search input{
+        border: solid rgb(143, 140, 140);
+        padding: 0.3rem 6rem 0.3rem 4rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.2rem;
+        width: 30rem;
+    }
+    #search button{
+        color: #fff;
+        background-color: orangered;
+        padding: 0.5rem 2rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.2rem;
+    }
+    nav{
+        margin-left: 0;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: repeat(6, 7rem);
+        border: none;
+        color: black;
+        background-color:#f4eded;
+    }
+    nav li a{
+        background-color: #f4eded;
+    }
+    #total{
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+    
+    #small{
+        font-size: xx-small;
+        margin-bottom: 1rem;
+    }
+    /*ad*/
+    #off{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #new{
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    
+    #new h1{
+       
+        justify-items: center;
+        font-size: xx-large;
+    }
+    #new a{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        margin-top: 0.5rem;
+    }
+    #men{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3,330px);
+        grid-gap: 1rem;
+    }
+    #s{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    
+    }
+    #queen{
+        background-color: white;
+        z-index: 3;
+    }
+    #news{
+        position: absolute;
+        top: 60rem;
+        left: 15rem;
+    }
+    #jeans{
+        position: absolute;
+        top: 60rem;
+        left: 36rem;
+    }
+    #shirts{
+        position: absolute;
+        top: 60rem;
+        left: 59rem;
+    }
+    #pants{
+        position: absolute;
+        top: 81rem;
+        left: 15rem;
+    }
+    #t{
+        position: absolute;
+        top: 81rem;
+        left: 36rem;
+    }
+    #sweats{
+        position: absolute;
+        top: 81rem;
+        left: 59rem;
+    }
+    #shorts{
+        position: absolute;
+        top: 101rem;
+        left: 50rem;
+    }
+    #o{
+        position: absolute;
+        top: 101rem;
+        left: 30rem;
+    }
+    /*latest*/
+    #latest{
+        margin-top: 5rem;
+    }
+    #c{
+        display: grid;
+        grid-template-columns: repeat(4,250px);
+        grid-gap: 0.5rem;
+    }
+    #v{
+        text-align: center;
+        margin-top: 1rem;
+        border: solid black;
+        margin: 1rem 30rem;
+      
+    }
+    /*footer*/
+    footer{
+        margin-top: 3rem;
+        padding-left: 7rem;
+       margin-left: 0;
+       border: 0;
+       margin-top: 1rem;
+       color:black ;
+       background-color:#f4eded;
+       font-size: xx-small;
+       background-size: cover;
+    }
+    #footer{
+       padding-top: 5%;
+       display: grid;
+       grid-template-columns: repeat(6, 13rem);
+       grid-gap: 10px;
+    }
+    #copyright{
+       margin-top: 4rem;
+    }
+    footer h1{
+       font-size: small;
+    }
+    footer input{
+       padding: 0.0001rem;
+       border: solid black;
+    }
+    #email{
+       border: solid gray;
+       width: 7rem;
+       margin-top: 1rem;
+    }
+    #subscribe{
+       background: black;
+       color: #fff;
+    }
+    #copyright{
+       padding-bottom: 1rem;
+    }
+    #blank a{
+       border: none;
+       margin-left: 1rem;
+       background-color: #f4eded;
+    }
+    #blank{
+       display: flex;
+       width: 1px;
+       
+    }
+    
+    
