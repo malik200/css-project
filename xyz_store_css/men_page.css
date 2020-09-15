@@ -22,6 +22,7 @@
         position: absolute;
         top: 0.5rem;
         right: 3rem;
+        margin-right: 5rem;
     }
     main{
         background: white;
@@ -50,20 +51,25 @@
     
     
     /*nav bar*/
+    
     #search{
         display: flex;
         align-items: center;
         background-color: #fff;
     }
-    #search p{
-        margin-right: 10rem;
+    #search span{
+        margin-right: 2rem;
         margin-left: 15rem;
+        font-family: 'chiller,regular';
     }
     nav{
         padding-left: 7rem;
     }
+    nav li a{
+        font-size: .7rem;
+    }
     #search input{
-        border: solid rgb(143, 140, 140);
+        border: solid thin rgb(241, 237, 237);
         padding: 0.3rem 6rem 0.3rem 4rem;
         margin-bottom: 0.5rem;
         margin-top: 0.2rem;
@@ -75,6 +81,12 @@
         padding: 0.5rem 2rem;
         margin-bottom: 0.5rem;
         margin-top: 0.2rem;
+        margin-left: .5rem;
+    }
+    label i{
+        position: relative;
+        left: 4rem;
+        top: .2rem;
     }
     nav{
         margin-left: 0;
@@ -83,10 +95,10 @@
         grid-template-columns: repeat(6, 7rem);
         border: none;
         color: black;
-        background-color:#f4eded;
+        background-color:#FDFDFD;
     }
     nav li a{
-        background-color: #f4eded;
+        background-color: #FDFDFD;
     }
     #total{
         position: sticky;
@@ -97,6 +109,10 @@
     #small{
         font-size: xx-small;
         margin-bottom: 1rem;
+        margin-left: 8rem;
+    }
+    #small span{
+        color: rgb(218, 213, 213);
     }
     /*ad*/
     #off{
@@ -112,20 +128,25 @@
     #new h1{
        
         justify-items: center;
-        font-size: xx-large;
+        font-size: 2rem;
+    }
+    #new p{
+        color: rgb(182, 182, 182);
     }
     #new a{
         text-align: center;
         background-color: black;
         color: white;
-        padding: 0.5rem 1rem 0.5rem 1rem;
+        padding: 0.3rem 2rem 0.3rem 2rem;
         margin-top: 0.5rem;
+        font-size: small;
     }
     #men{
         margin-top: 5rem;
         display: grid;
         grid-template-columns: repeat(3,330px);
         grid-gap: 1rem;
+        margin-left: 3rem;
     }
     #s{
         display: flex;
@@ -140,32 +161,32 @@
     #news{
         position: absolute;
         top: 60rem;
-        left: 15rem;
+        left: 17rem;
     }
     #jeans{
         position: absolute;
         top: 60rem;
-        left: 36rem;
+        left: 40rem;
     }
     #shirts{
         position: absolute;
         top: 60rem;
-        left: 59rem;
+        left: 62rem;
     }
     #pants{
         position: absolute;
         top: 81rem;
-        left: 15rem;
+        left: 17rem;
     }
     #t{
         position: absolute;
         top: 81rem;
-        left: 36rem;
+        left: 40rem;
     }
     #sweats{
         position: absolute;
         top: 81rem;
-        left: 59rem;
+        left: 62rem;
     }
     #shorts{
         position: absolute;
@@ -180,6 +201,11 @@
     /*latest*/
     #latest{
         margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 2rem;
+    }
+    #latest h3{
+        margin-bottom: .5rem;
     }
     #c{
         display: grid;
@@ -188,60 +214,66 @@
     }
     #v{
         text-align: center;
-        margin-top: 1rem;
-        border: solid black;
-        margin: 1rem 30rem;
-      
+        border: solid thin black;
+        margin: 1rem 29rem;
+        padding: 0.2rem 0;
+        font-size: .8rem;
+        color: rgba(17, 17, 17, 1);
     }
-    /*footer*/
-    footer{
-        margin-top: 3rem;
-        padding-left: 7rem;
-       margin-left: 0;
-       border: 0;
-       margin-top: 1rem;
-       color:black ;
-       background-color:#f4eded;
-       font-size: xx-small;
-       background-size: cover;
-    }
-    #footer{
-       padding-top: 5%;
-       display: grid;
-       grid-template-columns: repeat(6, 13rem);
-       grid-gap: 10px;
-    }
-    #copyright{
-       margin-top: 4rem;
-    }
-    footer h1{
-       font-size: small;
-    }
-    footer input{
-       padding: 0.0001rem;
-       border: solid black;
-    }
-    #email{
-       border: solid gray;
-       width: 7rem;
-       margin-top: 1rem;
-    }
-    #subscribe{
-       background: black;
-       color: #fff;
-    }
-    #copyright{
-       padding-bottom: 1rem;
-    }
-    #blank a{
-       border: none;
-       margin-left: 1rem;
-       background-color: #f4eded;
-    }
-    #blank{
-       display: flex;
-       width: 1px;
-       
-    }
-    
-    
+   /*footer*/
+footer{
+    margin-top: 5rem;
+    padding-left: 6rem;
+   margin-left: 0;
+   border: 0;
+   color:rgb(80, 79, 79) ;
+   background-color: #FBFBFB;
+   font-size: xx-small;
+   background-size: cover;
+}
+#footer{
+   padding-top: 5%;
+   display: grid;
+   grid-template-columns: repeat(6, 13rem);
+   grid-gap: 2rem;
+}
+ h1{
+    text-transform: uppercase;
+}
+#copyright{
+   margin-top: 4rem;
+}
+footer h1{
+   font-size: 0.5rem;
+   margin-bottom: 1rem;
+   color: black;
+}
+footer input{
+   padding: 0.0001rem;
+   border: solid thin black;
+}
+#email{
+   border: solid thin gray;
+   width: 7rem;
+   margin-top: 1rem;
+}
+#subscribe{
+   background: black;
+   color: #fff;
+}
+#copyright{
+   padding-bottom: 1rem;
+}
+#blank a{
+   border: none;
+   background-color: #FBFBFB;
+}
+#blank{
+   display: flex;
+   margin-right: 20rem;   
+}
+::placeholder{
+    padding: .5rem 0rem .7rem .5rem;
+    font-size: .7rem;
+}
+

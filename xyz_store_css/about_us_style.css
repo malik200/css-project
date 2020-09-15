@@ -63,15 +63,19 @@ li{
     align-items: center;
     background-color: #fff;
 }
-#search p{
-    margin-right: 10rem;
+#search span{
+    margin-right: 2rem;
     margin-left: 15rem;
+    font-family: 'chiller,regular';
 }
 nav{
     padding-left: 7rem;
 }
+nav li a{
+    font-size: .7rem;
+}
 #search input{
-    border: solid rgb(143, 140, 140);
+    border: solid thin rgb(241, 237, 237);
     padding: 0.3rem 6rem 0.3rem 4rem;
     margin-bottom: 0.5rem;
     margin-top: 0.2rem;
@@ -83,6 +87,12 @@ nav{
     padding: 0.5rem 2rem;
     margin-bottom: 0.5rem;
     margin-top: 0.2rem;
+    margin-left: .5rem;
+}
+label i{
+    position: relative;
+    left: 4rem;
+    top: .2rem;
 }
 nav{
     margin-left: 0;
@@ -91,10 +101,10 @@ nav{
     grid-template-columns: repeat(6, 7rem);
     border: none;
     color: black;
-    background-color:#f4eded;
+    background-color:#FDFDFD;
 }
 nav li a{
-    background-color: #f4eded;
+    background-color: #FDFDFD;
 }
 #total{
     position: sticky;
@@ -105,16 +115,22 @@ nav li a{
 #small{
     font-size: xx-small;
     margin-bottom: 1rem;
+    margin-left: 8rem;
 }
-h1{
-    font-size: 1rem;
+#small span{
+    color: rgb(218, 213, 213);
 }
 /*about us*/
-#body{
+/*section 1*/
+#container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 500px);
+    margin-left: 5rem;
 }
-#xyz, #ceo, .longer, #image, #image, #who, #no{
+#no img{
+    margin-bottom: 1rem;
+}
+ #ceo, .longer, #image, #image, #who, #no{
     margin-bottom: 1rem;
 }
 #who{
@@ -123,10 +139,16 @@ h1{
     margin-bottom: 4rem;
     
 }
+/*section 2*/
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
 #no{
     margin-top: 2rem;
 }
-#who, #no, #ceo, #xyz{
+#who, #no, #ceo{
     padding: 0 10rem;
 }
 #who img{
@@ -139,33 +161,48 @@ h1{
 }
 .longer{
     padding-top: 3rem;
+    padding-left: 8rem;
 }
 #choice{
     position: absolute;
-    right: 23rem;
-    top: 61rem;
+    right: 13rem;
+    top: 63rem;
+}
+/*section 3*/
+
+#section-3{
+    border: solid thin rgb(248, 248, 248);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-columns: 27rem 45rem;
 }
 #ceo{
-    margin-top: 11rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
 }
 #beyond{
     margin-left: 6rem;
 }
 #xyz{
-    padding-bottom: 5rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
 }
 #ceo h1 {
     font-size: x-small;
 }
 /*footer*/
 footer{
-    margin-top: 3rem;
-    padding-left: 7rem;
+    margin-top: 5rem;
+    padding-left: 6rem;
    margin-left: 0;
    border: 0;
-   margin-top: 1rem;
-   color:black ;
-   background-color:#f4eded;
+   color:rgb(80, 79, 79) ;
+   background-color: #FBFBFB;
    font-size: xx-small;
    background-size: cover;
 }
@@ -173,20 +210,25 @@ footer{
    padding-top: 5%;
    display: grid;
    grid-template-columns: repeat(6, 13rem);
-   grid-gap: 10px;
+   grid-gap: 2rem;
+}
+ h1{
+    text-transform: uppercase;
 }
 #copyright{
    margin-top: 4rem;
 }
 footer h1{
-   font-size: small;
+   font-size: 0.5rem;
+   margin-bottom: 1rem;
+   color: black;
 }
 footer input{
    padding: 0.0001rem;
-   border: solid black;
+   border: solid thin black;
 }
 #email{
-   border: solid gray;
+   border: solid thin gray;
    width: 7rem;
    margin-top: 1rem;
 }
@@ -199,12 +241,14 @@ footer input{
 }
 #blank a{
    border: none;
-   margin-left: 1rem;
-   background-color: #f4eded;
+   background-color: #FBFBFB;
 }
 #blank{
    display: flex;
-   width: 1px;
-   
+   margin-right: 20rem;   
+}
+::placeholder{
+    padding: .5rem 0rem .7rem .5rem;
+    font-size: .7rem;
 }
 

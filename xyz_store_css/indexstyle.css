@@ -12,10 +12,9 @@
     font-size: medium;
     line-height: 1.5;
     background: #fff;
-    margin-left: 7rem;
+    margin: 0 0 0 0;
     font-style: normal;
-    margin: auto;
-    max-width: 1100px;
+    padding: 0 5rem 0 3rem;
 }
 
 
@@ -24,8 +23,8 @@ main{
 }
 a{
     text-decoration: none;
-    padding: 0.2rem 0.9rem;
-    border: solid #00000014;
+    padding: 0.4rem 1.3rem;
+    border: solid thin #413e3e14;
     display: inline-block;
     color: black;
     background: white;
@@ -34,60 +33,80 @@ h1, h2, h3, h4, h5,h6{
     font-weight: bold;
     line-height: 1.3;
 }
-header{
-    
+header{  
     position: absolute;
     top: 0.1rem;
     left: 0.005rem;
+
 }
 li{
     list-style: none;
 }
 
 /*navigation bar*/
-#color{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem;
-    background: white;
+nav{
+    border-bottom: solid thin rgb(250, 250, 250);
     position: sticky;
     top: 0;
+    background: white;
     font-size: small;
+    z-index: 3;
+}
+.special{
+    border: none;
+    text-decoration: none;
 }
 
-.nav-container nav ul{
+#color{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem 1rem ;
+}
+
+.nav-container #nav ul{
+    display: flex;
+  
     justify-content: center;
 }
-.nav-container nav ul li a{
+.nav-container #nav ul li a{
     border: none;
     
 }
-nav{
+#nav{
     position: absolute;
     right: 30rem;
-    top: 0.1rem;
+    top: 1rem;
+    z-index: 2;
+    margin-right: 2rem;
 }
+
 #xyz{
-    margin: 0.5rem;
+    margin: 1rem 1rem 1rem 6rem;
+    padding-left: 3.2rem;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'chiller';
+    background-color: white;
+}
+#nav ul a{
+    margin-right: -0.00002rem;
+    font-size: .7rem;
 }
 #icon{
     display: grid;
     grid-template-columns: 1rem 1rem 1rem 1rem;
     grid-gap: 2rem;
     position: absolute;
-    top: 0.5rem;
-    right: -30rem;
+    top: .2rem;
+    right: -22.5rem;
+    background-color: white;
+    padding-right: 4rem;
+    z-index: 0;
 }
 /*shop showcase*/
 .container{
-    max-width: 1100px;
-    margin: auto;
-  }
+    max-width: 1000px;
+    margin: 0 5rem 0 5rem;
+}
 
   .showcase-container{
     height: 80vh;
@@ -98,8 +117,9 @@ nav{
   }
 
   .white-bg{
-    padding: 2rem;
+    padding: 5rem -0.2rem -5rem 2rem ;
     background-color: #fff;
+    margin: 1rem;
   }
 
   #container a{
@@ -108,19 +128,35 @@ nav{
 #link{
     display: grid;
     position: absolute;
-    right: 3rem;
+    right: 10rem;
+    z-index: 0;
 }
 #link a{
     border: none;
     margin: 1rem 0.5rem;
     width: 0.001rem;
 }
+.unique{
+    box-shadow: 7px 7px 7px  black;
+    border: none;
+    margin: 0.8rem 1rem 1rem 1rem;
+}
+.big{
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+.white-bg p{
+    font-size: x-small;
+    color: rgb(180, 180, 180);
+    padding-bottom: .5rem;
+}
 /*men clothing*/
 #men{
     font-size: xx-small;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
     display: grid;
-    grid-template-columns: repeat(3,329px);
+    grid-template-columns: repeat(3,318px);
     grid-gap: 1rem;
 }
 #clothing{
@@ -129,14 +165,22 @@ nav{
     font-weight: bold;
     
 }
+.space{
+    margin-top: 1rem;
+}
+#men h2{
+    color: black;
+    font-size: 1rem;
+}
 
 /*women clothing*/
 #women{
     margin-top: 7rem;
     display: grid;
-    grid-template-columns: repeat(3,329px);
+    grid-template-columns: repeat(3,318px);
     grid-template-rows: repeat(2,auto);
     grid-gap: 1rem;
+    margin-left: 6rem;
 }
 
 #jacket{
@@ -145,7 +189,7 @@ nav{
 }
 
 #hat{
-    margin-top: 6.5rem;
+    margin-top: 3.2rem;
 }
 
 #clothing-women{
@@ -153,43 +197,63 @@ nav{
     align-self: center;
      color: grey;
      font-weight: bold;
+    margin-top: 4rem;
     
 }
 /*ad*/
 #ad{
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: repeat(3,329px);
-    grid-gap: 0.5rem;
+    grid-template-columns: repeat(3,318px);
+    grid-gap: 1rem;
+    margin-left: 6rem;
 }
 #sales, #new-in, #blog{
     text-align: center;
     font-size: small;
+    margin-top: 0.5rem;
+    font-weight: bold;
 }
 #sales{
     color: red;
 }
 #ad p{
     text-align:center ;
+    font-size: 0.7rem;
+    color: rgb(148, 148, 148);
 }
 /*aside*/
 #aside{
-    margin-top: 5rem;
-    background: url(../images/index/big-shoes.png) no-repeat center center/contain ;
-    background-position-x: 45rem;
+    margin-top: 4rem;
+    background: url(../images/index/big-shoes.png) no-repeat top right ;
+    z-index: 0;
+    background-size: 70%;
+    height: 20rem;
+    margin-left: 9rem;
+    margin-right: 13rem;
 }
 #aside p{
     font-size: x-small;
 }
+#aside div{
+    text-align: left;
+    padding-top: 9rem;
+}
+#aside h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+#aside a{
+    margin-top: 0.5rem;
+}
 /*footer*/
 footer{
-    margin-top: 3rem;
-    padding-left: 7rem;
+    margin-top: 5rem;
+    padding-left: 6rem;
    margin-left: 0;
    border: 0;
-   margin-top: 1rem;
-   color:black ;
-   background-color:#f4eded;
+   color:rgb(80, 79, 79) ;
+   background-color: #FBFBFB;
    font-size: xx-small;
    background-size: cover;
 }
@@ -197,20 +261,25 @@ footer{
    padding-top: 5%;
    display: grid;
    grid-template-columns: repeat(6, 13rem);
-   grid-gap: 10px;
+   grid-gap: 2rem;
+}
+ h1{
+    text-transform: uppercase;
 }
 #copyright{
    margin-top: 4rem;
 }
 footer h1{
-   font-size: small;
+   font-size: 0.5rem;
+   margin-bottom: 1rem;
+   color: black;
 }
 footer input{
    padding: 0.0001rem;
-   border: solid black;
+   border: solid thin black;
 }
 #email{
-   border: solid gray;
+   border: solid thin gray;
    width: 7rem;
    margin-top: 1rem;
 }
@@ -223,12 +292,14 @@ footer input{
 }
 #blank a{
    border: none;
-   margin-left: 1rem;
-   background-color: #f4eded;
+   background-color: #FBFBFB;
 }
 #blank{
    display: flex;
-   width: 1px;
-   
+   margin-right: 20rem;   
+}
+::placeholder{
+    padding: .5rem 0rem .7rem .5rem;
+    font-size: .7rem;
 }
 
