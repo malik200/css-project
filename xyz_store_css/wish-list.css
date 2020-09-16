@@ -55,15 +55,19 @@ li{
     align-items: center;
     background-color: #fff;
 }
-#search p{
-    margin-right: 10rem;
+#search span{
+    margin-right: 2rem;
     margin-left: 15rem;
+    font-family: 'chiller,regular';
 }
 nav{
     padding-left: 7rem;
 }
+nav li a{
+    font-size: .7rem;
+}
 #search input{
-    border: solid rgb(143, 140, 140);
+    border: solid thin rgb(241, 237, 237);
     padding: 0.3rem 6rem 0.3rem 4rem;
     margin-bottom: 0.5rem;
     margin-top: 0.2rem;
@@ -75,6 +79,15 @@ nav{
     padding: 0.5rem 2rem;
     margin-bottom: 0.5rem;
     margin-top: 0.2rem;
+    margin-left: .5rem;
+}
+label i{
+    position: relative;
+    left: 4rem;
+    top: .2rem;
+}
+#small span{
+    color: rgb(218, 213, 213);
 }
 nav{
     margin-left: 0;
@@ -83,10 +96,10 @@ nav{
     grid-template-columns: repeat(6, 7rem);
     border: none;
     color: black;
-    background-color:#f4eded;
+    background-color:#FDFDFD;
 }
 nav li a{
-    background-color: #f4eded;
+    background-color: #FDFDFD;
 }
 #total{
     position: sticky;
@@ -97,7 +110,9 @@ nav li a{
 #small{
     font-size: xx-small;
     margin-bottom: 1rem;
+    margin-left: 8rem;
 }
+
 /*wishlist*/
 #list{
     display: grid;
