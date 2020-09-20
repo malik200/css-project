@@ -214,6 +214,7 @@ footer input{
 #blank a{
    border: none;
    background-color: #FBFBFB;
+   margin-right: 1rem;
 }
 #blank{
    display: flex;

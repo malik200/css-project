@@ -141,13 +141,12 @@ nav li a{
 #b{
     font-size: small;
     padding-bottom: .5rem;
-    border-bottom: solid thin rgb(247, 243, 243);
     margin-bottom: 1rem;
     margin-left: 1rem;
     display: flex;
     margin-right: 30rem;
 }
-/* .xs, .s, .l, .xl{
+.xs, .s, .l, .xl{
     padding-left: 1rem;
     border-bottom: solid thin rgb(247, 243, 243);
 }
@@ -158,7 +157,7 @@ nav li a{
     padding-left: .5rem;
     padding-right: .5rem;
      border-bottom: black solid thin; 
-} */
+}
 
 
 #t179{
